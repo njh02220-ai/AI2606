@@ -1,1 +1,190 @@
-a
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>진희의 학습 노트</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <div class="profile">
+        <div class="profile-icon">J</div>
+        <div>
+          <h1>진희의 노트</h1>
+          <p>Learning Archive</p>
+        </div>
+      </div>
+
+      <nav class="menu" aria-label="주요 메뉴">
+        <a class="active" href="#home">🏠 Home</a>
+        <a href="#notes">📚 Study Notes</a>
+        <a href="#projects">🧩 Projects</a>
+        <a href="#portfolio">💼 Portfolio</a>
+        <a href="#archive">🗂 Archive</a>
+        <a href="#about">🌷 About Me</a>
+      </nav>
+
+      <section class="sidebar-card">
+        <p class="mini-title">이번 주 목표</p>
+        <strong>AI 수업 내용 3개 정리하기</strong>
+        <div class="progress">
+          <span style="width: 68%"></span>
+        </div>
+        <small>진행률 68%</small>
+      </section>
+    </aside>
+
+    <main class="content" id="home">
+      <header class="hero">
+        <div>
+          <span class="eyebrow">취준생을 위한 학습 기록 홈페이지</span>
+          <h2>배운 내용을 차곡차곡 정리하는<br />나만의 성장 노트</h2>
+          <p>
+            수업에서 배운 내용, 실습 결과, 자격증 공부, 포트폴리오 아이디어를
+            노션처럼 깔끔하게 모아두는 공간입니다.
+          </p>
+        </div>
+        <div class="hero-card">
+          <p>오늘의 기록</p>
+          <strong>프롬프트 구조 정리</strong>
+          <span>#AI수업 #복습필요</span>
+        </div>
+      </header>
+
+      <section class="quick-stats" aria-label="학습 현황 요약">
+        <article>
+          <span>정리한 노트</span>
+          <strong>24</strong>
+        </article>
+        <article>
+          <span>진행 중인 공부</span>
+          <strong>4</strong>
+        </article>
+        <article>
+          <span>완료한 프로젝트</span>
+          <strong>6</strong>
+        </article>
+        <article>
+          <span>복습 필요</span>
+          <strong>8</strong>
+        </article>
+      </section>
+
+      <section class="section-block" id="notes">
+        <div class="section-title">
+          <div>
+            <span class="eyebrow">Study Notes</span>
+            <h3>최근 학습 노트</h3>
+          </div>
+          <label class="search-box">
+            <span>🔎</span>
+            <input type="search" placeholder="노트 검색하기" aria-label="노트 검색" />
+          </label>
+        </div>
+
+        <div class="note-grid">
+          <article class="note-card featured">
+            <div class="card-top">
+              <span class="emoji">🤖</span>
+              <span class="status done">정리 완료</span>
+            </div>
+            <h4>AI 수업 1일차 정리</h4>
+            <p>명령문, 조건, 출력 형식을 나누면 원하는 결과를 더 정확하게 얻을 수 있다.</p>
+            <div class="tags">
+              <span>#AI</span>
+              <span>#프롬프트</span>
+              <span>#기초</span>
+            </div>
+            <time datetime="2026-07-03">2026.07.03</time>
+          </article>
+
+          <article class="note-card">
+            <div class="card-top">
+              <span class="emoji">🎨</span>
+              <span class="status progress-label">정리 중</span>
+            </div>
+            <h4>Illustrator ACP 공부</h4>
+            <p>창 메뉴, 제어 패널, 대지 관련 기능을 버전별 용어 차이와 함께 정리한다.</p>
+            <div class="tags">
+              <span>#디자인툴</span>
+              <span>#자격증</span>
+            </div>
+            <time datetime="2026-07-02">2026.07.02</time>
+          </article>
+
+          <article class="note-card">
+            <div class="card-top">
+              <span class="emoji">📌</span>
+              <span class="status review">복습 필요</span>
+            </div>
+            <h4>홈페이지 구조 설계</h4>
+            <p>Home, Study Notes, Projects, Portfolio, Archive, About Me 메뉴 구조를 잡는다.</p>
+            <div class="tags">
+              <span>#HTML</span>
+              <span>#CSS</span>
+              <span>#기획</span>
+            </div>
+            <time datetime="2026-07-01">2026.07.01</time>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-block" id="projects">
+        <div class="section-title">
+          <div>
+            <span class="eyebrow">Categories</span>
+            <h3>카테고리별 정리</h3>
+          </div>
+        </div>
+
+        <div class="category-grid">
+          <article>
+            <span>🤖</span>
+            <h4>AI 수업</h4>
+            <p>프롬프트, 생성형 AI, 실습 기록</p>
+          </article>
+          <article>
+            <span>🎨</span>
+            <h4>디자인 툴</h4>
+            <p>Photoshop, Illustrator, C4D</p>
+          </article>
+          <article>
+            <span>📝</span>
+            <h4>자격증</h4>
+            <p>ACP 시험 준비와 오답 노트</p>
+          </article>
+          <article>
+            <span>💼</span>
+            <h4>취업 준비</h4>
+            <p>자소서, 면접, 포트폴리오 소재</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-block two-column" id="portfolio">
+        <article class="panel">
+          <span class="eyebrow">Portfolio</span>
+          <h3>대표 결과물</h3>
+          <ul class="clean-list">
+            <li><span>01</span> AI 수업 발표자료 기획</li>
+            <li><span>02</span> 학습 노트 홈페이지 제작</li>
+            <li><span>03</span> 디자인 툴 실습 이미지 정리</li>
+          </ul>
+        </article>
+
+        <article class="panel" id="about">
+          <span class="eyebrow">About Me</span>
+          <h3>나의 학습 방향</h3>
+          <p>
+            배운 내용을 단순히 저장하는 것이 아니라, 나중에 다시 보고 설명할 수 있도록
+            핵심 개념과 실습 과정을 함께 기록합니다.
+          </p>
+          <a class="button" href="#notes">노트 보러가기</a>
+        </article>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
