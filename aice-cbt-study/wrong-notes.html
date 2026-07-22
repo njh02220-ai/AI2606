@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="AI 학습 오답노트와 재풀이" />
+    <title>오답노트 | AICE 대비 AI 학습 CBT</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body data-page="wrong">
+    <a class="skip-link" href="#main-content">본문으로 건너뛰기</a>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="AICE 대비 AI 학습 CBT 홈"><span class="brand-mark" aria-hidden="true">A</span><span><strong>AICE</strong><small>AI 학습 CBT</small></span></a>
+      <nav class="site-nav" aria-label="주요 메뉴">
+        <a data-nav="home" href="index.html">홈</a><a data-nav="learn" href="learn.html">주제별 학습</a><a data-nav="mock" href="mock-exam.html">모의고사</a><a data-nav="wrong" href="wrong-notes.html">오답노트 <span class="nav-badge" data-wrong-count>0</span></a>
+      </nav>
+    </header>
+    <main id="main-content" class="page-shell" tabindex="-1">
+      <header class="page-heading"><div><p class="eyebrow">REVIEW</p><h1>나의 오답노트</h1><p>틀린 이유를 기록하고, 답을 제출한 뒤 해설을 확인해요.</p></div><a class="button ghost" href="index.html">홈으로</a></header>
+      <section class="review-toolbar" aria-label="오답 필터"><div class="segmented" data-wrong-filters></div><p data-wrong-summary></p></section>
+      <section data-wrong-root aria-live="polite"></section>
+    </main>
+    <footer class="site-footer"><p>메모는 HTML로 실행되지 않도록 안전한 일반 텍스트로 표시됩니다.</p><p>기록은 이 브라우저에만 저장됩니다.</p></footer>
+    <script type="module" src="js/wrong-notes.js"></script>
+  </body>
+</html>
